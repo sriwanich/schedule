@@ -1,0 +1,78 @@
+RewriteEngine On
+
+# เมื่อเข้าเว็บที่ root (https://schedule.dpmpry.online/) ให้ไปที่ preview.php ก่อน โดยไม่ต้อง login
+RewriteRule ^$ preview.php [L]
+
+# แปลง URL จาก /mobile ไปยัง index_mobile.php
+RewriteRule ^mobile$ index_mobile.php [L]
+
+# แปลง URL จาก /desktop ไปยัง index_desktop.php
+RewriteRule ^desktop$ index_desktop.php [L]
+
+# แปลง URL จาก /dashboard ไปยัง dashboard.php
+RewriteRule ^dashboard$ dashboard.php [L]
+
+# แปลง URL จาก /m_dashboard ไปยัง dashboard_mobile.php
+RewriteRule ^m_dashboard$ dashboard_mobile.php [L]
+
+# แปลง URL จาก /chairman ไปยัง chairman.php
+RewriteRule ^chairman$ chairman.php [L]
+
+# แปลง URL จาก /m_old_events ไปยัง m_old_events.php
+RewriteRule ^m_old_events$ m_old_events.php [L]
+
+# แปลง URL จาก /dress ไปยัง dress.php
+RewriteRule ^dress$ dress.php [L]
+
+# แปลง URL จาก /add_changelog ไปยัง add_changelog.php
+RewriteRule ^add_changelog$ add_changelog.php [L]
+
+# แปลง URL จาก /editEvent ไปยัง edit.php
+RewriteRule ^editEvent$ edit.php [L]
+
+# แปลง URL จาก /addEvent ไปยัง form.php
+RewriteRule ^addEvent$ form.php [L]
+
+# แปลง URL จาก /login ไปยัง login.php
+RewriteRule ^login$ login.php [L]
+
+# แปลง URL จาก /index ไปยัง index.php
+RewriteRule ^index$ index.php [L]
+
+# แปลง URL จาก /logout ไปยัง logout.php
+RewriteRule ^logout$ logout.php [L]
+
+# แปลง URL จาก /oauth2callback ไปยัง oauth2callback.php
+RewriteRule ^oauth2callback$ oauth2callback.php [L]
+
+# แปลง URL จาก /setting ไปยัง setting.php
+RewriteRule ^setting$ setting.php [L]
+
+# แปลง URL จาก /m_setting ไปยัง m_setting.php
+RewriteRule ^m_setting$ m_setting.php [L]
+
+# แปลง URL จาก /calendar ไปยัง calendar.php
+RewriteRule ^calendar$ calendar.php [L]
+
+# แปลง URL จาก /cards ไปยัง cardview.php
+RewriteRule ^cards$ cardview.php [L]
+
+# แปลง URL จาก /forgot_password ไปยัง forgot_password.php
+RewriteRule ^forgot_password$ forgot_password.php [L]
+
+# แปลง URL จาก /manage ไปยัง manage.php
+RewriteRule ^manage$ manage.php [L]
+
+# แปลง URL จาก /m_manage ไปยัง manage_mobile.php
+RewriteRule ^m_manage$ manage_mobile.php [L]
+
+# แปลง URL จาก /old_events ไปยัง old_events.php
+RewriteRule ^old_events$ old_events.php [L]
+
+# แปลง URL จาก /changelogs ไปยัง changelog.php
+RewriteRule ^changelogs$ changelog.php [L]
+
+# แปลง URL จาก /shows ไปยัง preview.php
+RewriteRule ^shows$ preview.php [L]
+
+
